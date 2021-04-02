@@ -17,3 +17,15 @@ Wymagania
 Python 3.9.X
 Django 3.1.7 lub nowszy
 
+
+## Workflow
+
+Każda zmiana w repozytorium przebiega w określony sposób:
+* Tworzymy tablicę w Projects.
+* Tworzymy Issue w oparciu o tą tablicę.
+* Tworzymy Branch odpowiadający danemu issue.
+* Wszystkie zmiany commitujemy do stworzonego brancha dla danego issue, rozpoczynając komentarz od Shopping_list i po dwukropku opis czego dotyczy zmiana.
+* Gdy kod jest gotowy do oceny, otwieramy merge request.
+* W merge request dodawane są komentarze odnośnie kodu, po poprawieniu kod jest ponownie oceniany aż do momentu gdy wszystkie dyskusje są rozwiązane.
+* Po zaakceptowaniu merge requesta, nasz branch wchodzi do maina.
+
