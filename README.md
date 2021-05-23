@@ -1,5 +1,9 @@
 # Lista-zakupow
 
+## Raporty ze spotkań
+[Raporty](https://docs.google.com/document/d/1YTrGBuI3ZGYfEnopkNs8GCN6G_389UoLI0Nytd_AXZc/edit)
+
+
 Aby uruchomić stronę należy pobrać repozytorium i otworzyć je w PyCharm-ie. 
 Konfiguracje powinny ustawić się automatycznie, a strona będzie gotowa do otworzenia na porcie 8000.
 
@@ -28,4 +32,6 @@ Każda zmiana w repozytorium przebiega w określony sposób:
 * Gdy kod jest gotowy do oceny, otwieramy merge request.
 * W merge request dodawane są komentarze odnośnie kodu, po poprawieniu kod jest ponownie oceniany aż do momentu gdy wszystkie dyskusje są rozwiązane.
 * Po zaakceptowaniu merge requesta, nasz branch wchodzi do maina.
+
+
 
