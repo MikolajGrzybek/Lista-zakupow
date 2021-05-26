@@ -73,7 +73,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #027723;
+  background-color: #006400;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -100,7 +100,7 @@ input {
 .clearlist {
   padding: 10px;
   width: 100%;
-  background: #027723;
+  background: #006400;
   color: white;
   float: left;
   text-align: center;
