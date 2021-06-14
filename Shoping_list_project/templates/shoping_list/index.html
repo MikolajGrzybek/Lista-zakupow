@@ -5,8 +5,8 @@
   <h1 style="text-align: center;">My Shopping List:</h1>
 <p style="text-align: center;"><strong>Moja lista zakup&oacute;w:</strong></p>
 <h3>&nbsp; &nbsp; &nbsp;(EN)Type items below to add to your list. Click on the item to mark it as complete. You can delete an item by clicking 'X' or you can clear the full list by selecting 'Clear List'.</h3>
-<h3>&nbsp; &nbsp; &nbsp;(PL)Wpisz produkty poniżej, aby dodać je do swojej listy. Kliknij element, aby oznaczyć go jako zakupiony. Możesz usunąć pozycję, klikając &bdquo;X&rdquo; lub wyczyścić całą listę, wybierając &bdquo;Wyczyść listę&rdquo;.</h3>
-  <form action = "{% url 'add' %}" method = "POST" role = "form">
+<h3>&nbsp; &nbsp; &nbsp;(PL)Wpisz produkty ponizej, aby dodac je do swojej listy. Kliknij element, aby oznaczyc go jako zakupiony. Mozesz usunac pozycje, klikajac 'X' lub wyczyscic cala liste, wybierajac 'Clear List'.</h3>
+  <form action = "{% url 'add' %}" method = "POST" role = "form">z
   {% csrf_token %}
   {{ form.text }}
   </form>
